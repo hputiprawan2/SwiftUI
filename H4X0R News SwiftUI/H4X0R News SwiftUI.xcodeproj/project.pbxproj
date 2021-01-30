@@ -28,6 +28,7 @@
 		C72AAAF825C4027700A1A838 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		C72AAAFD25C408F600A1A838 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C72AAB0025C40D7B00A1A838 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		C7A79A2F25C55C7E00DFBAEC /* H4X0R News SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4X0R News SwiftUI.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		C72AAAE225C393ED00A1A838 /* H4X0R News SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C7A79A2F25C55C7E00DFBAEC /* H4X0R News SwiftUI.entitlements */,
 				C72AAAF325C3FA8400A1A838 /* Models */,
 				C72AAAE325C393ED00A1A838 /* H4X0R_News_SwiftUIApp.swift */,
 				C72AAAFB25C408D900A1A838 /* Views */,
@@ -299,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J2NPWJSL8;
@@ -311,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hannap.H4X0R-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4X0R News SwiftUI/H4X0R News SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4X0R News SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 6J2NPWJSL8;
@@ -333,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hannap.H4X0R-News-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
